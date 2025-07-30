@@ -23,7 +23,6 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/book" className="btn-primary text-lg px-8 py-4">
                 立即预约
-                <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
               <Link href="/services" className="btn-secondary text-lg px-8 py-4">
                 查看服务

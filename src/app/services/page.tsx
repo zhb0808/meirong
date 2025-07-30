@@ -105,11 +105,12 @@ export default function ServicesPage() {
                   <div className="mt-8">
                     <Link 
                       href={`/book?service=${service.id}`}
-                  className="w-full bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl flex items-center justify-center group-hover:shadow-2xl"
-                >
-                  立即预约
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
-                </Link>
+                      className="w-full bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl flex items-center justify-center gap-2 group-hover:shadow-2xl"
+                      style={{minHeight: 0, height: '48px', fontSize: '1.1rem', letterSpacing: '0.02em'}}
+                    >
+                      <span className="inline-block">立即预约</span>
+                      <ArrowRight className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" />
+                    </Link>
                   </div>
                 </div>
               </div>
